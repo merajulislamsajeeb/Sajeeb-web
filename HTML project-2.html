@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Mini project-2</title>
+	<style type="text/css">
+		body{
+			background-color: rgb(125,255,325);
+			font-family: sans-serif;
+			margin: 0px;
+			
+		}
+		h2{
+			background-color: green;
+			color: red;
+			padding: 8px;
+		}
+		td{
+			padding: 5px;
+
+		}
+		input{
+			border-radius: 10px
+		}
+		textarea {
+   resize: none;
+   border-radius: 10px;
+
+}
+	</style>
+</head>
+<body>
+	<h1 align="middle">Online Job Application Form</h1>
+	<table width="100%">
+		<h2 align="center">Personal Information</h2>
+		<div>
+			<td>First Name:</td>
+			<td>
+				<input type="text" name="fname">
+			</td>
+			<td>Middle Name:</td>
+			<td>
+				<input type="text" name="mname">
+			</td>
+			<td>Last Name:</td>
+			<td>
+				<input type="text" name="lname">
+			</td>
+			<tr>
+				<td>Father's Name:</td>
+			<td>
+				<input type="text" name="faname">
+			</td>
+			<td>Mother's Name:</td>
+			<td>
+				<input type="text" name="moname">
+			</td>
+			</tr>
+			<tr>
+				<td>Current Address:</td>
+				<td>
+					<textarea rows="3" cols="20" placeholder="write Address here.."></textarea>
+				</td>
+				<td>Permanent Address:</td>
+				<td>
+					<textarea rows="3" cols="20" placeholder="write Address here.."></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Phone Number:</td>
+				<td>
+					<input type="Number" name="fonenumber">
+				</td>
+				<td>Date of Birth:</td>
+				<td>
+					<input type="date" name="date">
+				</td>
+			</tr>
+			<tr>
+				<td>Select Gender:</td>
+				<td>
+					<input type="radio" name="Gender" value="Male" checked="Male"><label for="Male">Male</label>
+					<input type="radio" name="Gender" value="Female"><label for="Female">Female</label>
+					<input type="radio" name="Gender" value="Others"><label for="Others">Others</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Select Your Hobby:</td>
+				<td>
+					<input type="checkbox" name="Hobby">Playing
+					<input type="checkbox" name="Hobby">Traveling
+					<input type="checkbox" name="Hobby">Gardening
+				</td>
+			</tr>
+			<tr>
+				<td>Upload Your Photo:</td>
+				<td>
+					<input type="file" name="file">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Heighest Education Qualification:
+				</td>
+				<td>
+					<input type="text" name="Edu qualification">
+				</td>
+				<td>
+					Passing Year:
+				</td>
+				<td>
+					<input type="date">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Language known:
+				</td>
+				<td>
+					<input type="checkbox" name="Language">English
+					<input type="checkbox" name="language">Bangla
+					<input type="checkbox" name="language">Hindi
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Write About Yourself:
+				</td>
+				<td>
+					<textarea rows="5" cols="30" placeholder="Write here"></textarea>
+				</td>
+			</tr>
+		</div>
+	</table>
+	<br>
+</body>
+</html>
